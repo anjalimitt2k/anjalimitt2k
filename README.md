@@ -8,7 +8,7 @@ I'm a senior at Berkeley studying data science and econ (done in December 2026).
 
 **[caiso-day-ahead-forecast](https://github.com/anjalimitt2k/caiso-day-ahead-forecast)** — day-ahead electricity load and price forecasting for the California grid, scored against CAISO's own forecast, not a naive baseline. A GitHub Action wakes up every morning, posts tomorrow's forecast before the market clears, and grades yesterday's. I beat the naive stuff and a zero-shot foundation model. I do not beat CAISO on load, and I decided that was worth publishing anyway. [Live scoreboard](https://anjalimitt2k.github.io/caiso-day-ahead-forecast/)
 
-This account is pretty new, it's just what I've built since summer 2026. There's an older streaming fraud-detection project (Kafka / Spark / dbt / Airflow) that's on my resume but not up here yet.
+This account is pretty new, it's for just what I've built since summer 2026 to build up my skills :)
 
 ## stuff I use
 
