@@ -1,44 +1,21 @@
-# Anjali Mittapally
+# hi, I'm Anjali
 
-Data Science & Economics at UC Berkeley, graduating December 2026. Right now
-I'm a Data/AI engineering intern at CrossGen AI, where I build forecasting
-agents, RAG pipelines and the evaluation harnesses that decide whether any of
-it is good enough to show a client.
+I'm a senior at Berkeley studying data science and econ (done in December 2026). This past summer I interned at CrossGen AI, a small applied AI studio, mostly building forecasting agents and eval harnesses and then arguing with the numbers until they made sense.
 
-I like problems where the answer is a measurement rather than an opinion, and
-where there is an incumbent baseline that is genuinely hard to beat. Both of
-the projects below are built around that: pick the strongest thing already in
-production, score against it under the same rules, and publish the result
-whether or not it flatters me.
+I got kind of obsessed with the idea of benchmarking stuff against a baseline that's actually hard to beat, instead of against a strawman. Both projects on here came out of that.
 
-## Projects
+## what's here
 
-**[lure](https://github.com/anjalimitt2k/lure)** · Can an AI shopping agent be
-talked into paying the wrong party? A benchmark with six injection attack
-classes, five defenses, and a scripted agent plus a real one (Claude Haiku
-5.5). The finding: a content classifier that scores 0.00 miss rate on the
-injections it was trained on leaks to 0.08 to 0.17 when the same fraud goals
-are rephrased, while outcome-level guardrails hold at zero. Everything
-regenerates offline, byte-identically, with no API key. 329 tests.
+**[lure](https://github.com/anjalimitt2k/lure)** — I wanted to know if you can trick an AI shopping agent into paying the wrong person by hiding instructions in a product page. So I built a fake marketplace, six kinds of attacks, a few defenses, and ran both a scripted agent and Claude Haiku through it. The part I found interesting: a text classifier that catches 100% of the injections it trained on misses 8–17% of them once you just reword the same scam. Guardrails that check the actual payment instead of reading the page didn't miss any. Everything reruns offline with no API key. Lots of tests (329, I counted).
 
-**[caiso-day-ahead-forecast](https://github.com/anjalimitt2k/caiso-day-ahead-forecast)**
-· A day-ahead load and price forecaster for the California grid, scored
-against CAISO's own published forecast under walk-forward validation over 798
-days. A GitHub Action issues tomorrow's forecast every morning before the
-market clears and grades yesterday's, so the track record is live and
-timestamped. I beat the naive baselines and a zero-shot foundation model; I do
-not beat CAISO on load, and the README says so.
-[Live scoreboard.](https://anjalimitt2k.github.io/caiso-day-ahead-forecast/)
+**[caiso-day-ahead-forecast](https://github.com/anjalimitt2k/caiso-day-ahead-forecast)** — day-ahead electricity load and price forecasting for the California grid, scored against CAISO's own forecast, not a naive baseline. A GitHub Action wakes up every morning, posts tomorrow's forecast before the market clears, and grades yesterday's. I beat the naive stuff and a zero-shot foundation model. I do not beat CAISO on load, and I decided that was worth publishing anyway. [Live scoreboard](https://anjalimitt2k.github.io/caiso-day-ahead-forecast/)
 
-This account is new. It holds the projects I've built since mid-2026; an
-earlier streaming fraud-detection pipeline (Kafka, Spark Structured Streaming,
-dbt, Airflow, Delta Lake) is on my resume and not yet migrated here.
+This account is pretty new, it's just what I've built since summer 2026. There's an older streaming fraud-detection project (Kafka / Spark / dbt / Airflow) that's on my resume but not up here yet.
 
-## Tools I actually use
+## stuff I use
 
-Python (pandas, scikit-learn, LightGBM), SQL, R (tidyverse), Claude API and
-agent tooling, Kafka / Spark / dbt / Airflow, Git and GitHub Actions.
+Python (pandas, scikit-learn, LightGBM), SQL, a bit of R, the Claude API, Kafka/Spark/dbt/Airflow, GitHub Actions for anything that should run without me.
 
-## Elsewhere
+## find me
 
 [LinkedIn](https://www.linkedin.com/in/anjalimittapally/) · anjali.mitt2k@gmail.com
