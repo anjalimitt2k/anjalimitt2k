@@ -1,8 +1,6 @@
 # hi, I'm Anjali
 
-I'm a senior at Berkeley studying data science and econ (done in December 2026). This past summer I interned at CrossGen AI, a small applied AI studio, mostly building forecasting agents and eval harnesses and then arguing with the numbers until they made sense.
-
-I got kind of obsessed with the idea of benchmarking stuff against a baseline that's actually hard to beat, instead of against a strawman. Both projects on here came out of that.
+I'm a senior at Berkeley studying data science and econ (done in December 2026).
 
 ## what's here
 
