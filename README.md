@@ -16,4 +16,4 @@ Python (pandas, scikit-learn, LightGBM), SQL, a bit of R, the Claude API, Kafka/
 
 ## find me
 
-[LinkedIn](https://www.linkedin.com/in/anjalimittapally/) · anjali.mitt2k@gmail.com
+[LinkedIn](https://www.linkedin.com/in/anjalimittapally/) · anjalimitt@berkeley.edu
